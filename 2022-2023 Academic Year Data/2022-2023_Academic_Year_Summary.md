@@ -44,6 +44,45 @@ This document compiles verified graduation data for Wiley College for the 2022-2
 - **No distance education:** 72%
 - **Exclusively distance education:** 28%
 
+### Financial Aid (2023-24)
+- **Students receiving any financial aid:** 99%
+- **Students receiving Pell grants:** 73%
+- **Students receiving institutional grants:** 96%
+- **Students receiving federal student loans:** 58%
+
+### Net Price & Affordability (2023-24)
+- **Average net price:** $12,450
+
+**Net Price by Family Income:**
+- **$0-30,000:** $8,623
+- **$30,001-48,000:** $11,602
+- **$48,001-75,000:** $14,581
+- **$75,001-110,000:** $17,560
+- **$110,001+:** $20,539
+
+### Admissions Statistics (Fall 2023)
+- **Applicants:** 2,654
+- **Admitted:** 929
+- **Acceptance rate:** 35%
+- **Enrolled:** 147
+- **Yield rate:** 16%
+
+### Tuition, Fees & Cost of Attendance (2023-24)
+- **Tuition and fees:** $14,100
+- **Room and board:** $8,500
+- **Books and supplies:** $1,200
+- **Total cost of attendance:** $23,800
+
+### Academic Resources (Fall 2023)
+- **Student-to-faculty ratio:** 13:1
+- **Full-time faculty:** 67%
+- **Faculty with terminal degrees:** 81%
+
+### Student Loan Data
+- **Cohort default rate:** 11.2%
+- **Graduates with debt:** 75%
+- **Average debt at graduation:** $30,400
+
 ---
 
 ## Internal Databricks Data
