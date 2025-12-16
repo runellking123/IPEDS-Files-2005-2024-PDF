@@ -1,66 +1,69 @@
 # 2016-2017 Academic Year Data
 
-This folder contains comprehensive graduation and enrollment data for Wiley College for the 2016-2017 academic year (July 1, 2016 - June 30, 2017).
+This folder contains comprehensive graduation, enrollment, and student success data for Wiley College for the 2016-2017 academic year.
 
-## Files Included
+## Folder Structure
 
-### 2016-2017_Academic_Year_Summary.md
-Complete academic year summary including:
-- Internal Databricks graduation data
-- Degree conferral breakdowns
-- Year-over-year comparisons
-- Enrollment context
+```
+2016-2017 Academic Year Data/
+├── README.md (this file)
+├── IPEDS Data/
+│   ├── IPEDS_Official_Summary.md
+│   └── README.md
+└── Databricks Data/
+    ├── Graduation_Summary.md
+    ├── Major_Program_Analysis.md
+    ├── Demographics_Analysis.md
+    ├── Time_to_Degree_Analysis.md
+    └── README.md
+```
 
-## Data Summary
+## Quick Summary
 
-### Degrees Conferred (2016-2017)
+### Graduation Overview
+- **Academic Period:** July 1, 2016 - June 30, 2017
+- **Total Degrees Conferred:** 271
+- **Bachelor's Degrees:** 270
+- **Associate's Degrees:** 0
 
-| Source | Bachelor's | Associate's | Total |
-|--------|-----------|-------------|-------|
-| Databricks | 270 | 0 | 271 |
-| IPEDS | N/A | N/A | N/A |
+### Top 3 Majors
+1. **Business & Organizational Management** (BOMG): 37 degrees
+2. **Criminal Justice** (CRJU): 35 degrees
+3. **Interdisciplinary Studies** (INTDS): 34 degrees
 
-**Note:** IPEDS 2017 Data Feedback Report is not publicly available via the standard IPEDS DFR URL structure.
-
-### Degree Type Distribution
-
-| Degree | Count | Percentage |
-|--------|-------|-----------|
-| BA (Bachelor of Arts) | 98 | 36.2% |
-| BBA (Bachelor of Business Administration) | 88 | 32.5% |
-| BS (Bachelor of Science) | 84 | 31.0% |
-| Unknown | 1 | 0.4% |
-
-## Key Findings
-
-1. **Strong graduation year:** 271 total degrees conferred
-2. **All bachelor's degrees:** No associate's degrees awarded this year
-3. **Balanced distribution:** Nearly equal split across BA, BBA, and BS programs
-4. **Baseline year:** Represents the highest graduation count in the 2016-2024 period
-
-## Historical Context
-
-- This year represents the peak graduation performance in the 8-year analysis period
-- Subsequent years show steady decline from this baseline
-- Strong performance across all three major bachelor's programs
+### Gender Distribution
+- **Female:** 187 (69.0%)
+- **Male:** 84 (31.0%)
 
 ## Data Sources
 
-1. **IPEDS Data**
-   - Status: Not available via standard DFR URL
-   - May be available through alternative IPEDS data tools
+### IPEDS Data Folder
+IPEDS None data not yet publicly available.
+- Check back for official data release
+- Use Databricks data for internal analysis
 
-2. **Wiley University Databricks (Jenzabar J1)**
-   - Schema: hive_metastore.j1.degree_history
-   - Query Period: July 1, 2016 - June 30, 2017
-   - Query Date: December 16, 2025
+### Databricks Data Folder
+Contains detailed internal analyses from Wiley University's Jenzabar J1 database.
+- **Use for:** Internal strategic planning, program analysis, trend identification
+- **Includes:** Major-level detail, demographics, time-to-degree analysis
+
+## Key Findings
+
 
 ## Usage
 
-This data should be used as:
-- Baseline for multi-year graduation trend analysis
-- Reference point for program performance comparison
-- Historical context for current graduation challenges
+- **Strategic Planning:** Use Databricks detailed analyses
+- **External Reporting:** Cite IPEDS official data
+- **Trend Analysis:** Compare across multiple academic year folders
+- **Program Review:** Examine major-level performance data
+
+## Related Folders
+
+- **Previous Year:** See previous academic year folder for historical comparison
+- **Next Year:** See next academic year folder for progression
+- **Data Source URLs:** Root directory folder with links to all external sources
+- **Graduation and Retention Data Sources:** Root directory folder with external research
 
 ## Last Updated
+
 December 16, 2025

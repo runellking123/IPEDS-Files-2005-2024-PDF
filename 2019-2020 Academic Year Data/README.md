@@ -1,119 +1,72 @@
 # 2019-2020 Academic Year Data
 
-This folder contains comprehensive graduation and enrollment data for Wiley College for the 2019-2020 academic year (July 1, 2019 - June 30, 2020).
+This folder contains comprehensive graduation, enrollment, and student success data for Wiley College for the 2019-2020 academic year.
 
-## Files Included
+## Folder Structure
 
-### 2019-2020_Academic_Year_Summary.md
-Complete academic year summary including:
-- Official IPEDS 2021 report data
-- Internal Databricks graduation data
-- Data reconciliation analysis (99.4% accuracy match)
-- Monthly distribution of degrees conferred
-- Enrollment and retention statistics
-- Year-over-year comparisons
-- COVID-19 pandemic impact analysis
+```
+2019-2020 Academic Year Data/
+├── README.md (this file)
+├── IPEDS Data/
+│   ├── IPEDS_Official_Summary.md
+│   └── README.md
+└── Databricks Data/
+    ├── Graduation_Summary.md
+    ├── Major_Program_Analysis.md
+    ├── Demographics_Analysis.md
+    ├── Time_to_Degree_Analysis.md
+    └── README.md
+```
 
-## Data Summary
+## Quick Summary
 
-### Degrees Conferred (2019-2020)
+### Graduation Overview
+- **Academic Period:** July 1, 2019 - June 30, 2020
+- **Total Degrees Conferred:** 176 (-19, -9.7%)
+- **Bachelor's Degrees:** 166
+- **Associate's Degrees:** 10
 
-| Source | Bachelor's | Associate's | Total |
-|--------|-----------|-------------|-------|
-| Databricks | 166 | 10 | 176 |
-| IPEDS 2021 | 165 | 10 | 175 |
-| **Variance** | **+1** | **0** | **+1** |
+### Top 3 Majors
+1. **Business Administration** (BUADM): 21 degrees
+2. **Business & Organizational Management** (BOMG): 19 degrees
+3. **Criminal Justice** (CRJU): 19 degrees
 
-**Data Quality:** 99.4% accuracy match between IPEDS and internal data
-
-### Degree Type Distribution (Databricks)
-
-| Degree | Count | Percentage |
-|--------|-------|-----------|
-| BA (Bachelor of Arts) | 71 | 40.3% |
-| BBA (Bachelor of Business Administration) | 54 | 30.7% |
-| BS (Bachelor of Science) | 41 | 23.3% |
-| AA (Associate of Arts) | 10 | 5.7% |
-
-### Monthly Distribution
-
-| Month | Degrees | Typical Term |
-|-------|---------|--------------|
-| August 2019 | 15 | Summer 2019 |
-| December 2019 | 34 | Fall 2019 |
-| May 2020 | 127 | Spring 2020 |
-
-### Enrollment (Fall 2020)
-
-| Metric | Count | Change from Fall 2019 |
-|--------|-------|----------------------|
-| Total enrollment | 615 | -505 (-45%) |
-| Full-time | 555 | - |
-| Part-time | 60 | - |
-
-### Retention and Graduation Rates
-
-| Metric | Rate | Previous Year |
-|--------|------|---------------|
-| Full-time retention (Fall 2019 cohort) | 70% | 39% (Fall 2018) |
-| Part-time retention (Fall 2019 cohort) | 100% | - |
-| Graduation rate (2014 cohort, 150% time) | 31% | 38% (2012 cohort) |
-
-## Key Findings
-
-1. **Continued decline:** 176 total degrees (down from 195 in 2018-19)
-2. **9.7% decrease:** Smallest year-over-year decline in recent years
-3. **Excellent data quality:** Near-perfect match between IPEDS and Databricks
-4. **Retention improvement:** Dramatic increase to 70% (up from 39%)
-5. **Spring 2020 concentration:** 72% of degrees conferred in May 2020
-6. **COVID-19 impact:** Pandemic began March 2020, affecting spring operations
-7. **Enrollment collapse:** 45% enrollment decline (Fall 2020)
-
-## Year-over-Year Comparison (Databricks)
-
-| Metric | 2018-2019 | 2019-2020 | Change |
-|--------|-----------|-----------|--------|
-| Total Degrees | 195 | 176 | -19 (-9.7%) |
-| Bachelor's | 189 | 166 | -23 (-12.2%) |
-| Associate's | 6 | 10 | +4 (+66.7%) |
-
-## COVID-19 Pandemic Impact
-
-The 2019-2020 academic year was significantly impacted by COVID-19:
-- Pandemic declaration: March 2020
-- Transition to remote learning during Spring 2020
-- May 2020 graduations proceeded amid uncertainty (127 degrees)
-- Fall 2020 enrollment plummeted 45% (1,120 → 615 students)
-- Economic disruptions affecting student persistence
-- Virtual commencement ceremonies
-
-## Historical Context
-
-- Last "normal" fall semester (Fall 2019) before pandemic
-- Retention improved dramatically (70%), but enrollment declined severely
-- Associate's degree completions increased to 10 (highest in recent years)
-- Despite challenges, maintained strong data quality and reporting
+### Gender Distribution
+- **Female:** 102 (58.0%)
+- **Male:** 74 (42.0%)
 
 ## Data Sources
 
-1. **IPEDS 2021 Data Feedback Report**
-   - URL: https://nces.ed.gov/ipeds/dfr/2021/ReportHTML.aspx?unitId=229887
-   - Data Year: 2019-2020
-   - Retrieved: December 16, 2025
+### IPEDS Data Folder
+Contains official federal education data from NCES IPEDS 2021 Data Feedback Report.
+- **Use for:** External reporting, compliance, official statistics
+- **URL:** https://nces.ed.gov/ipeds/dfr/2021/ReportHTML.aspx?unitId=229887
 
-2. **Wiley University Databricks (Jenzabar J1)**
-   - Schema: hive_metastore.j1.degree_history
-   - Query Period: July 1, 2019 - June 30, 2020
-   - Query Date: December 16, 2025
+### Databricks Data Folder
+Contains detailed internal analyses from Wiley University's Jenzabar J1 database.
+- **Use for:** Internal strategic planning, program analysis, trend identification
+- **Includes:** Major-level detail, demographics, time-to-degree analysis
+
+## Key Findings
+
+- **COVID-19 Impact:** Academic year ended during pandemic (March 2020)
+- **Spring 2020:** 72% of degrees conferred in May under remote conditions
+- **Enrollment Decline:** Fall 2020 enrollment dropped 45%
 
 ## Usage
 
-This data should be used as:
-- Pre-pandemic and early-pandemic baseline
-- Data quality validation reference (99.4% IPEDS match)
-- Analysis of COVID-19 initial impacts
-- Context for understanding enrollment collapse
-- Reference for retention recovery strategies (70% achievement)
+- **Strategic Planning:** Use Databricks detailed analyses
+- **External Reporting:** Cite IPEDS official data
+- **Trend Analysis:** Compare across multiple academic year folders
+- **Program Review:** Examine major-level performance data
+
+## Related Folders
+
+- **Previous Year:** See previous academic year folder for historical comparison
+- **Next Year:** See next academic year folder for progression
+- **Data Source URLs:** Root directory folder with links to all external sources
+- **Graduation and Retention Data Sources:** Root directory folder with external research
 
 ## Last Updated
+
 December 16, 2025
