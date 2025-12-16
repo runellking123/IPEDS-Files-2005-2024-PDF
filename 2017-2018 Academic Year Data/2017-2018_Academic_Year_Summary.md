@@ -83,6 +83,28 @@ This document compiles verified graduation data for Wiley College for the 2017-2
 - **Graduates with debt:** 85%
 - **Average debt at graduation:** $27,800
 
+### Completions by Demographics (2017-2018)
+
+**By Race/Ethnicity:**
+- **Black/African American:** 208 (90.8%)
+- **White:** 9 (3.9%)
+- **Hispanic/Latino:** 5 (2.2%)
+- **Other/Unknown:** 7 (3.1%)
+
+**By Gender:**
+- **Women:** 135 (59.0%)
+- **Men:** 94 (41.0%)
+
+### Outcomes for Pell Recipients
+
+**Retention Rates (Fall 2017 Cohort):**
+- **Pell recipients:** 49%
+- **Non-Pell recipients:** 56%
+
+**Graduation Rates (2011 Cohort):**
+- **Pell recipients:** 21%
+- **Non-Pell recipients:** 27%
+
 ---
 
 ## Internal Databricks Data
@@ -132,6 +154,32 @@ This document compiles verified graduation data for Wiley College for the 2017-2
 ### Analysis
 
 The Databricks data shows excellent alignment with official IPEDS reporting (variance: 0 degrees).
+
+---
+
+## Key Findings for 2017-2018
+
+### Graduation Statistics
+1. **218 bachelor's degrees** were awarded
+2. **11 associate's degrees** were awarded
+3. **Total: 229 degrees** for the academic year
+
+### Distribution Insights
+- **Spring 2018** was the largest graduation term (172 degrees = 75% of total)
+
+### Enrollment & Retention
+- Fall 2018 enrollment: 1120 students
+- Full-time retention rate: 51%
+- Pell recipients retained at 7% lower rate than non-Pell students
+
+### Affordability & Financial Aid
+- Average net price: $9,876
+- 81% of students received Pell grants (indicating high proportion of low-income students)
+- Cohort default rate of 18.2% requires attention and intervention strategies
+
+### Student Success & Equity
+- 91% of graduates were Black/African American students
+- 59% of graduates were women
 
 ---
 
