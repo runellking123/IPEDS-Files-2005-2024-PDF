@@ -1,0 +1,24 @@
+# NCES College Navigator
+
+## Wiley College (ID: 229887)
+
+Main Profile:
+https://nces.ed.gov/collegenavigator/?id=229887
+
+Institutional Characteristics:
+https://nces.ed.gov/collegenavigator/?q=wiley+college&s=all&id=229887
+
+Admissions:
+https://nces.ed.gov/collegenavigator/?q=wiley+college&s=all&id=229887#admsns
+
+Enrollment:
+https://nces.ed.gov/collegenavigator/?q=wiley+college&s=all&id=229887#enrolmt
+
+Retention and Graduation Rates:
+https://nces.ed.gov/collegenavigator/?q=wiley+college&s=all&id=229887#retgrad
+
+Financial Aid:
+https://nces.ed.gov/collegenavigator/?q=wiley+college&s=all&id=229887#finaid
+
+Net Price:
+https://nces.ed.gov/collegenavigator/?q=wiley+college&s=all&id=229887#netprc
