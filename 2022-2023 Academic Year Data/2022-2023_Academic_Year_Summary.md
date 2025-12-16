@@ -1,0 +1,97 @@
+# Wiley College - 2022-2023 Academic Year Graduation Data
+
+**Academic Year Period:** July 1, 2022 - June 30, 2023
+
+## Summary
+
+This document compiles verified graduation data for Wiley College for the 2022-2023 academic year from multiple sources, including IPEDS official reporting and internal Databricks records.
+
+## Official IPEDS Data (2022-2023)
+
+**Source:** NCES IPEDS 2024 Data Feedback Report
+**URL:** https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=229887
+
+### Degrees Awarded (2022-2023)
+- **Bachelor's degrees:** 94
+- **Associate's degrees:** 0
+- **Master's degrees:** 0
+- **Doctoral degrees:** 0
+- **Total degrees:** 94
+
+### Enrollment Data
+- **Total fall enrollment:** 636 students
+
+### Retention Rates
+- **Full-time students:** 32%
+
+### Graduation Rate (within 150% of normal time)
+- **Overall graduation rate:** 20%
+
+---
+
+## Internal Databricks Data
+
+**Source:** Wiley University Jenzabar J1 Database (via Databricks)
+**Query Date:** December 16, 2025
+
+### Degrees Conferred
+- **Total degrees conferred:** 94
+- **Unique students:** 94
+
+### Breakdown by Degree Type
+
+| Degree Code | Academic Degree | Count | Level |
+|-------------|----------------|-------|-------|
+| BS | N/A | 37 | Bachelor's |
+| BBA | N/A | 33 | Bachelor's |
+| BA | N/A | 24 | Bachelor's |
+
+**Summary:**
+- **Bachelor's degrees:** 94
+- **Associate's degrees:** 0
+
+### Monthly Distribution
+
+| Month | Degrees Conferred |
+|-------|------------------|
+| 2022-08 | 10 |
+| 2022-12 | 26 |
+| 2023-05 | 58 |
+
+**Total:** 94
+
+---
+
+## Data Reconciliation
+
+### Comparison: IPEDS vs. Databricks
+
+| Metric | IPEDS 2024 | Databricks | Difference |
+|--------|-----------|-----------|------------|
+| Bachelor's degrees | 94 | 94 | +0 |
+| Associate's degrees | 0 | 0 | +0 |
+| **Total degrees** | **94** | **94** | **+0** |
+
+### Analysis
+
+The Databricks data shows excellent alignment with official IPEDS reporting (variance: 0 degrees).
+
+---
+
+## Data Sources
+
+1. **IPEDS 2024 Data Feedback Report**
+   - URL: https://nces.ed.gov/ipeds/dfr/2024/ReportHTML.aspx?unitId=229887
+   - Data Year: 2022-2023
+   - Retrieved: December 16, 2025
+   - Status: Available
+
+2. **Wiley University Databricks (Jenzabar J1)**
+   - Schema: hive_metastore.j1.degree_history
+   - Query Period: July 1, 2022 - June 30, 2023
+   - Query Date: December 16, 2025
+
+---
+
+**Document Created:** December 16, 2025
+**Last Updated:** December 16, 2025
