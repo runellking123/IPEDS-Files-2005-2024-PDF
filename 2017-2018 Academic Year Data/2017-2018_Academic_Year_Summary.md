@@ -18,6 +18,32 @@ This document compiles verified graduation data for Wiley College for the 2017-2
 - **Doctoral degrees:** 0
 - **Total degrees:** 229
 
+### Enrollment Data (Fall 2018)
+- **Total fall enrollment:** 1120 students
+- **Full-time undergraduate:** 949 students
+- **Part-time undergraduate:** 171 students
+- **Total FTE enrollment:** 1034 students
+- **12-month unduplicated headcount:** 1347 students
+
+### Student Demographics (Fall 2018)
+- **Black/African American:** 91%
+- **White:** 3%
+- **Hispanic/Latino:** 2%
+- **Nonresident alien:** 3%
+- **Women:** 59%
+
+### Retention Rates (Fall 2017 Cohort)
+- **Full-time students:** 51%
+- **Part-time students:** 67%
+
+### Graduation Rate (2011 Cohort, within 150% of normal time)
+- **Overall graduation rate:** 23%
+- **Transfer-out rate:** 32%
+
+### Distance Education Participation (Fall 2018)
+- **No distance education:** 91%
+- **Exclusively distance education:** 9%
+
 ---
 
 ## Internal Databricks Data
